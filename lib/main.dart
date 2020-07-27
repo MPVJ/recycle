@@ -30,8 +30,8 @@ class MyApp extends StatelessWidget {
                   child: ListTile(
                     leading: CircleAvatar(
                       backgroundColor: Colors.white,
-                      backgroundImage: AssetImage("images/sign.png"),
-                      radius: 28,
+                      backgroundImage: AssetImage("images/01pet.png"),
+                      radius: 30,
                     ),
                     title: Text(
                       'PET или PETE',
@@ -40,6 +40,45 @@ class MyApp extends StatelessWidget {
                     subtitle: Text(
                       'Полиэтилентерефталат - термопластик. Используется для изготовления пластиковых ёмкостей '
                       '(чаще всего - пластиковых бутылок) и производства синтетических волокон.',
+                      style: TextStyle(fontWeight: FontWeight.w500),
+                    ),
+                    isThreeLine: true,
+                  ),
+                ),
+                Card(
+                  child: ListTile(
+                    leading: CircleAvatar(
+                      backgroundColor: Colors.white,
+                      backgroundImage: AssetImage("images/02hdpe.png"),
+                      radius: 30,
+                    ),
+                    title: Text(
+                      'HDPE или PE-HD',
+                      style: TextStyle(fontWeight: FontWeight.w700),
+                    ),
+                    subtitle: Text(
+                      'Полиэтилен высокой плотности - термопластичный полимер. Используется для изготовления пластиковых ёмкостей, '
+                      'контактирующих с пищевыми/непищевыми продуктами, для производства пластиковых труб, для изготовления игрушек.',
+                      style: TextStyle(fontWeight: FontWeight.w500),
+                    ),
+                    isThreeLine: true,
+                  ),
+                ),
+                Card(
+                  child: ListTile(
+                    leading: CircleAvatar(
+                      backgroundColor: Colors.white,
+                      backgroundImage: AssetImage("images/03pvc.png"),
+                      radius: 30,
+                    ),
+                    title: Text(
+                      'PVC или V',
+                      style: TextStyle(fontWeight: FontWeight.w700),
+                    ),
+                    subtitle: Text(
+                      'Поливинилхлорид. Широко используется в производстве кабельной изоляции, уплотняющих материалов, '
+                      'оконных рам, в медицине, при производстве труб, для изготовления игрушек. Из ПВХ производится обувь, '
+                      'кредитные карты, спортивный инвентарь, одежда. В качестве упаковки: жесткая пленка, бутылки, гибкая пленка.',
                       style: TextStyle(fontWeight: FontWeight.w500),
                     ),
                     isThreeLine: true,
