@@ -41,7 +41,7 @@ class MyApp extends StatelessWidget {
                       'Полиэтилентерефталат. Бутылки, мешки, пакеты, детали приборов и машин, медицинские изделия.',
                       style: TextStyle(fontWeight: FontWeight.w500),
                     ),
-                    isThreeLine: true,
+                    isThreeLine: false,
                   ),
                 ),
                 Card(
@@ -97,7 +97,7 @@ class MyApp extends StatelessWidget {
                       'Полиэтилен низкой плотности. Пакеты, пленка, мешки, контейнеры, крышки, игрушки.',
                       style: TextStyle(fontWeight: FontWeight.w500),
                     ),
-                    isThreeLine: true,
+                    isThreeLine: false,
                   ),
                 ),
                 Card(
@@ -153,7 +153,7 @@ class MyApp extends StatelessWidget {
                       'Другие виды пластмасс или их смесь.',
                       style: TextStyle(fontWeight: FontWeight.w500),
                     ),
-                    isThreeLine: true,
+                    isThreeLine: false,
                   ),
                 ),
                 Card(
@@ -196,7 +196,7 @@ class MyApp extends StatelessWidget {
                       'Гофрированный картон. Коробки для транспортировки и хранения.',
                       style: TextStyle(fontWeight: FontWeight.w500),
                     ),
-                    isThreeLine: true,
+                    isThreeLine: false,
                   ),
                 ),
                 Card(
@@ -214,7 +214,7 @@ class MyApp extends StatelessWidget {
                       'Другие виды картона. Индивидуальная упаковка пищевых и непищевых продуктов, открытки.',
                       style: TextStyle(fontWeight: FontWeight.w500),
                     ),
-                    isThreeLine: true,
+                    isThreeLine: false,
                   ),
                 ),
                 Card(
@@ -232,7 +232,7 @@ class MyApp extends StatelessWidget {
                       'Бумага. Газеты и журналы, бумага для печати, бумажные пакеты.',
                       style: TextStyle(fontWeight: FontWeight.w500),
                     ),
-                    isThreeLine: true,
+                    isThreeLine: false,
                   ),
                 ),
                 Card(
@@ -256,7 +256,7 @@ class MyApp extends StatelessWidget {
                       'Сталь. Банки консервные, аэрозольные баллоны.',
                       style: TextStyle(fontWeight: FontWeight.w500),
                     ),
-                    isThreeLine: true,
+                    isThreeLine: false,
                   ),
                 ),
                 Card(
@@ -271,10 +271,10 @@ class MyApp extends StatelessWidget {
                       style: TextStyle(fontWeight: FontWeight.w700),
                     ),
                     subtitle: Text(
-                      'Алюминий. Банки для напитков. Тюбики для кремов и пастообразной продукции, фольга.',
+                      'Алюминий. Банки для напитков, фольга, тюбики для кремов и пастообразной продукции.',
                       style: TextStyle(fontWeight: FontWeight.w500),
                     ),
-                    isThreeLine: true,
+                    isThreeLine: false,
                   ),
                 ),
                 Card(
@@ -298,7 +298,7 @@ class MyApp extends StatelessWidget {
                       'Дерево. .',
                       style: TextStyle(fontWeight: FontWeight.w500),
                     ),
-                    isThreeLine: true,
+                    isThreeLine: false,
                   ),
                 ),
                 Card(
@@ -316,7 +316,7 @@ class MyApp extends StatelessWidget {
                       'Пробка. .',
                       style: TextStyle(fontWeight: FontWeight.w500),
                     ),
-                    isThreeLine: true,
+                    isThreeLine: false,
                   ),
                 ),
                 Card(
@@ -340,7 +340,7 @@ class MyApp extends StatelessWidget {
                       'Хлопок. .',
                       style: TextStyle(fontWeight: FontWeight.w500),
                     ),
-                    isThreeLine: true,
+                    isThreeLine: false,
                   ),
                 ),
                 Card(
@@ -358,7 +358,7 @@ class MyApp extends StatelessWidget {
                       'Джут. .',
                       style: TextStyle(fontWeight: FontWeight.w500),
                     ),
-                    isThreeLine: true,
+                    isThreeLine: false,
                   ),
                 ),
                 Card(
@@ -382,7 +382,7 @@ class MyApp extends StatelessWidget {
                       'Бесцветное стекло. .',
                       style: TextStyle(fontWeight: FontWeight.w500),
                     ),
-                    isThreeLine: true,
+                    isThreeLine: false,
                   ),
                 ),
                 Card(
@@ -400,7 +400,7 @@ class MyApp extends StatelessWidget {
                       'Зеленое стекло. .',
                       style: TextStyle(fontWeight: FontWeight.w500),
                     ),
-                    isThreeLine: true,
+                    isThreeLine: false,
                   ),
                 ),
                 Card(
@@ -418,7 +418,7 @@ class MyApp extends StatelessWidget {
                       'Коричневое стекло. .',
                       style: TextStyle(fontWeight: FontWeight.w500),
                     ),
-                    isThreeLine: true,
+                    isThreeLine: false,
                   ),
                 ),
                 Card(
@@ -442,7 +442,7 @@ class MyApp extends StatelessWidget {
                       '. .',
                       style: TextStyle(fontWeight: FontWeight.w500),
                     ),
-                    isThreeLine: true,
+                    isThreeLine: false,
                   ),
                 ),
                 Card(
@@ -460,7 +460,7 @@ class MyApp extends StatelessWidget {
                       '. .',
                       style: TextStyle(fontWeight: FontWeight.w500),
                     ),
-                    isThreeLine: true,
+                    isThreeLine: false,
                   ),
                 ),
                 Card(
@@ -478,7 +478,7 @@ class MyApp extends StatelessWidget {
                       '. .',
                       style: TextStyle(fontWeight: FontWeight.w500),
                     ),
-                    isThreeLine: true,
+                    isThreeLine: false,
                   ),
                 ),
                 Card(
@@ -496,7 +496,7 @@ class MyApp extends StatelessWidget {
                       '. .',
                       style: TextStyle(fontWeight: FontWeight.w500),
                     ),
-                    isThreeLine: true,
+                    isThreeLine: false,
                   ),
                 ),
                 Card(
@@ -514,7 +514,7 @@ class MyApp extends StatelessWidget {
                       '. .',
                       style: TextStyle(fontWeight: FontWeight.w500),
                     ),
-                    isThreeLine: true,
+                    isThreeLine: false,
                   ),
                 ),
                 Card(
@@ -532,7 +532,7 @@ class MyApp extends StatelessWidget {
                       '. .',
                       style: TextStyle(fontWeight: FontWeight.w500),
                     ),
-                    isThreeLine: true,
+                    isThreeLine: false,
                   ),
                 ),
                 Card(
@@ -550,7 +550,7 @@ class MyApp extends StatelessWidget {
                       '. .',
                       style: TextStyle(fontWeight: FontWeight.w500),
                     ),
-                    isThreeLine: true,
+                    isThreeLine: false,
                   ),
                 ),
                 Card(
@@ -568,7 +568,7 @@ class MyApp extends StatelessWidget {
                       '. .',
                       style: TextStyle(fontWeight: FontWeight.w500),
                     ),
-                    isThreeLine: true,
+                    isThreeLine: false,
                   ),
                 ),
                 Card(
@@ -586,7 +586,7 @@ class MyApp extends StatelessWidget {
                       '. .',
                       style: TextStyle(fontWeight: FontWeight.w500),
                     ),
-                    isThreeLine: true,
+                    isThreeLine: false,
                   ),
                 ),
                 Card(
@@ -604,7 +604,7 @@ class MyApp extends StatelessWidget {
                       '. .',
                       style: TextStyle(fontWeight: FontWeight.w500),
                     ),
-                    isThreeLine: true,
+                    isThreeLine: false,
                   ),
                 ),
                 Card(
@@ -622,7 +622,7 @@ class MyApp extends StatelessWidget {
                       '. .',
                       style: TextStyle(fontWeight: FontWeight.w500),
                     ),
-                    isThreeLine: true,
+                    isThreeLine: false,
                   ),
                 ),
                 Card(
@@ -640,7 +640,7 @@ class MyApp extends StatelessWidget {
                       '. .',
                       style: TextStyle(fontWeight: FontWeight.w500),
                     ),
-                    isThreeLine: true,
+                    isThreeLine: false,
                   ),
                 ),
                 Card(
@@ -658,7 +658,7 @@ class MyApp extends StatelessWidget {
                       '. .',
                       style: TextStyle(fontWeight: FontWeight.w500),
                     ),
-                    isThreeLine: true,
+                    isThreeLine: false,
                   ),
                 ),
               ],
