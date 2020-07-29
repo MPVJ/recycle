@@ -193,7 +193,7 @@ class MyApp extends StatelessWidget {
                       style: TextStyle(fontWeight: FontWeight.w700),
                     ),
                     subtitle: Text(
-                      'Гофрированный картон. .',
+                      'Гофрированный картон. Коробки для транспортировки и хранения.',
                       style: TextStyle(fontWeight: FontWeight.w500),
                     ),
                     isThreeLine: true,
@@ -211,7 +211,7 @@ class MyApp extends StatelessWidget {
                       style: TextStyle(fontWeight: FontWeight.w700),
                     ),
                     subtitle: Text(
-                      'Другие виды картона. .',
+                      'Другие виды картона. Индивидуальная упаковка пищевых и непищевых продуктов, открытки.',
                       style: TextStyle(fontWeight: FontWeight.w500),
                     ),
                     isThreeLine: true,
@@ -229,7 +229,7 @@ class MyApp extends StatelessWidget {
                       style: TextStyle(fontWeight: FontWeight.w700),
                     ),
                     subtitle: Text(
-                      'Бумага. .',
+                      'Бумага. Газеты и журналы, бумага для печати, бумажные пакеты.',
                       style: TextStyle(fontWeight: FontWeight.w500),
                     ),
                     isThreeLine: true,
@@ -253,7 +253,7 @@ class MyApp extends StatelessWidget {
                       style: TextStyle(fontWeight: FontWeight.w700),
                     ),
                     subtitle: Text(
-                      'Сталь. .',
+                      'Сталь. Банки консервные, аэрозольные баллоны.',
                       style: TextStyle(fontWeight: FontWeight.w500),
                     ),
                     isThreeLine: true,
@@ -271,7 +271,7 @@ class MyApp extends StatelessWidget {
                       style: TextStyle(fontWeight: FontWeight.w700),
                     ),
                     subtitle: Text(
-                      'Алюминий. .',
+                      'Алюминий. Банки для напитков. Тюбики для кремов и пастообразной продукции, фольга.',
                       style: TextStyle(fontWeight: FontWeight.w500),
                     ),
                     isThreeLine: true,
