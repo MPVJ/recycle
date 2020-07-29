@@ -34,12 +34,11 @@ class MyApp extends StatelessWidget {
                       radius: 30,
                     ),
                     title: Text(
-                      'PET или PETE',
+                      'PET, PETE, ПЭТ, ПЭТФ',
                       style: TextStyle(fontWeight: FontWeight.w700),
                     ),
                     subtitle: Text(
-                      'Полиэтилентерефталат. Используется для изготовления пластиковых емкостей '
-                      '(чаще всего - пластиковых бутылок) и производства синтетических волокон.',
+                      'Полиэтилентерефталат. Бутылки, мешки, пакеты, детали приборов и машин, медицинские изделия.',
                       style: TextStyle(fontWeight: FontWeight.w500),
                     ),
                     isThreeLine: true,
@@ -53,12 +52,12 @@ class MyApp extends StatelessWidget {
                       radius: 30,
                     ),
                     title: Text(
-                      'HDPE или PE-HD',
+                      'HDPE, PE-HD, ПЭВП, ПЭНД',
                       style: TextStyle(fontWeight: FontWeight.w700),
                     ),
                     subtitle: Text(
-                      'Полиэтилен высокой плотности. Используется для изготовления пластиковых емкостей, '
-                      'контактирующих с пищевыми/непищевыми продуктами, для производства пластиковых труб, игрушек.',
+                      'Полиэтилен высокой плотности. Контейнеры и емкости, в том числе для пищевых продуктов. Бутылки, флаконы, крышки, '
+                      'ящики для бутылок, трубы, одноразовая посуда, игрушки.',
                       style: TextStyle(fontWeight: FontWeight.w500),
                     ),
                     isThreeLine: true,
@@ -72,13 +71,12 @@ class MyApp extends StatelessWidget {
                       radius: 30,
                     ),
                     title: Text(
-                      'PVC или V',
+                      'PVC или V, ПВХ',
                       style: TextStyle(fontWeight: FontWeight.w700),
                     ),
                     subtitle: Text(
-                      'Поливинилхлорид. Широко используется в производстве кабельной изоляции, уплотняющих материалов, '
-                      'оконных рам, в медицине, при производстве труб, для изготовления игрушек. Из ПВХ производится обувь, '
-                      'кредитные карты, спортивный инвентарь, одежда. В качестве упаковки: жесткая пленка, бутылки, гибкая пленка.',
+                      'Поливинилхлорид. Упаковка, емкости и контейнеры, кабельная изоляция, трубы, профили для окон и дверей, '
+                      'напольные покрытия, одежда, уплотнители, детали обуви, медицинские изделия.',
                       style: TextStyle(fontWeight: FontWeight.w500),
                     ),
                     isThreeLine: true,
@@ -92,11 +90,11 @@ class MyApp extends StatelessWidget {
                       radius: 30,
                     ),
                     title: Text(
-                      'LDPE или PE-LD',
+                      'LDPE, PE-LD, ПЭНП, ПЭВД',
                       style: TextStyle(fontWeight: FontWeight.w700),
                     ),
                     subtitle: Text(
-                      'Полиэтилен низкой плотности. .',
+                      'Полиэтилен низкой плотности. Пакеты, пленка, мешки, контейнеры, крышки, игрушки.',
                       style: TextStyle(fontWeight: FontWeight.w500),
                     ),
                     isThreeLine: true,
@@ -110,13 +108,12 @@ class MyApp extends StatelessWidget {
                       radius: 30,
                     ),
                     title: Text(
-                      'PP',
+                      'PP, ПП',
                       style: TextStyle(fontWeight: FontWeight.w700),
                     ),
                     subtitle: Text(
-                      'Полипропилен. Используется в упаковке пищевой и непищевой продукции, для изготовления контейнеров, '
-                      'контактирующих с пищей, в производстве бутылок и крышек для них. Применяется при производстве синтетических '
-                      'волокон, в машиностроении, в электронике и электротехнике, в медицине.',
+                      'Полипропилен. Упаковочная пленка, пластиковые стаканчики и контейнеры, мешки, трубы, '
+                      'детали приборов, нити и волокна, электроизоляционные материалы.',
                       style: TextStyle(fontWeight: FontWeight.w500),
                     ),
                     isThreeLine: true,
@@ -130,11 +127,12 @@ class MyApp extends StatelessWidget {
                       radius: 30,
                     ),
                     title: Text(
-                      'PS',
+                      'PS, ПС',
                       style: TextStyle(fontWeight: FontWeight.w700),
                     ),
                     subtitle: Text(
-                      'Полистирол. .',
+                      'Полистирол. Одноразовая посуда, контейнеры и емкости, прозрачные и непрозрачные футляры, игрушки, '
+                      'медицинские изделия.',
                       style: TextStyle(fontWeight: FontWeight.w500),
                     ),
                     isThreeLine: true,
@@ -152,7 +150,7 @@ class MyApp extends StatelessWidget {
                       style: TextStyle(fontWeight: FontWeight.w700),
                     ),
                     subtitle: Text(
-                      'Другие виды пластмасс. .',
+                      'Другие виды пластмасс или их смесь.',
                       style: TextStyle(fontWeight: FontWeight.w500),
                     ),
                     isThreeLine: true,
@@ -166,11 +164,12 @@ class MyApp extends StatelessWidget {
                       radius: 30,
                     ),
                     title: Text(
-                      'ABS',
+                      'ABS, АБС',
                       style: TextStyle(fontWeight: FontWeight.w700),
                     ),
                     subtitle: Text(
-                      'АБС-пластик. .',
+                      'АБС-пластик. Корпуса бытовых электроприборов, компоненты автомобилей, чемоданы, контейнеры, '
+                      'корпуса электроинструмента, канцелярские изделия, детали медицинского оборудования.',
                       style: TextStyle(fontWeight: FontWeight.w500),
                     ),
                     isThreeLine: true,
