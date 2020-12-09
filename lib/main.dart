@@ -594,6 +594,64 @@ class MyApp extends StatelessWidget {
                     ),
                   ),
                 ),
+                Card(
+                    child: ListTile(
+                        title: Text(
+                  'Японские символы',
+                  style: TextStyle(fontWeight: FontWeight.w800, fontSize: 20.0),
+                ))),
+                Card(
+                  child: ListTile(
+                    leading: CircleAvatar(
+                      backgroundColor: Colors.white,
+                      backgroundImage: AssetImage("images/jPlastic.png"),
+                      radius: 30,
+                    ),
+                    title: Text(
+                      'Пластмасса',
+                      style: TextStyle(fontWeight: FontWeight.w700),
+                    ),
+                  ),
+                ),
+                Card(
+                  child: ListTile(
+                    leading: CircleAvatar(
+                      backgroundColor: Colors.white,
+                      backgroundImage: AssetImage("images/jPaper.png"),
+                      radius: 30,
+                    ),
+                    title: Text(
+                      'Бумага',
+                      style: TextStyle(fontWeight: FontWeight.w700),
+                    ),
+                  ),
+                ),
+                Card(
+                  child: ListTile(
+                    leading: CircleAvatar(
+                      backgroundColor: Colors.white,
+                      backgroundImage: AssetImage("images/jAlumi.png"),
+                      radius: 30,
+                    ),
+                    title: Text(
+                      'Алюминий',
+                      style: TextStyle(fontWeight: FontWeight.w700),
+                    ),
+                  ),
+                ),
+                Card(
+                  child: ListTile(
+                    leading: CircleAvatar(
+                      backgroundColor: Colors.white,
+                      backgroundImage: AssetImage("images/jSteel.png"),
+                      radius: 30,
+                    ),
+                    title: Text(
+                      'Металлы',
+                      style: TextStyle(fontWeight: FontWeight.w700),
+                    ),
+                  ),
+                ),
               ],
             )));
   }

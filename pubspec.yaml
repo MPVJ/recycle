@@ -79,6 +79,10 @@ flutter:
     - images/96.png
     - images/97.png
     - images/98.png
+    - images/jAlumi.png
+    - images/jPaper.png
+    - images/jPlastic.png
+    - images/jSteel.png
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
