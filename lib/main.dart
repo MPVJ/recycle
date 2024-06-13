@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -415,6 +414,25 @@ class MyApp extends StatelessWidget {
                     ),
                     subtitle: Text(
                       'Изделия из коричневого стекла.',
+                      style: TextStyle(fontWeight: FontWeight.w500),
+                    ),
+                  ),
+                ),
+                Card(
+                  child: ListTile(
+                    leading: CircleAvatar(
+                      backgroundColor: Colors.white,
+                      backgroundImage: AssetImage("images/73-79gl.png"),
+                      radius: 30,
+                    ),
+                    title: Text(
+                      'GL',
+                      style: TextStyle(fontWeight: FontWeight.w700),
+                    ),
+                    subtitle: Text(
+                      'Другие виды стёкол: 73 - бутылочное стекло тёмно-коричневое; 74 - бутылочное стекло светло-коричневое;'
+                      ' 75 - стекло с малым содержанием свинца; 76 - хрусталь; 77 - стекло, покрытое медью; '
+                      '78 - стекло, покрытое серебром; 79 - позолоченное стекло.',
                       style: TextStyle(fontWeight: FontWeight.w500),
                     ),
                   ),
